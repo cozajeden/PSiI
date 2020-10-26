@@ -56,7 +56,7 @@ def hufflen(S):
   HL[Ip] = HLp
   return HL
 
-def huffcode(HL, DisplayS=False):
+def huffcode(HL, Display=False):
   """ Based on the codeword lengths this function find the Huffman codewords
 
   HK = huffcode(HL,Display);
